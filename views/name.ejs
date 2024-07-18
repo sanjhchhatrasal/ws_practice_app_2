@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main h-screen w-full bg-zinc-800 flex items-center justify-center">
+        <div>
+            <h1 class="text-white font-semibold text-4xl">Write your name</h1>
+            <form class="flex gap-5 mt-10" action="/send" method="post">
+                <input class="text-white border-lg outline-none px-8 py-2 bg-zinc-500 rounded-lg" type="text" placeholder="Your Name..." name="name">
+                <input class="px-6 py-2 rounded-lg outline-none bg-blue-600 text-white font-semibold" type="submit" value="Submit" name="" id="">
+            </form>
+           </div>
+    </div>
+  
+</body>
+</html>
